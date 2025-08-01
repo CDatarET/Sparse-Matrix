@@ -1,7 +1,11 @@
 #include <stdio.h>
 #define max 100
 /*
-    
+    Take in a Sparse Matrix as input and perform-
+    Display
+    Compact form
+    Simple Transpose
+    Fast Transpose
 */
 
 void inp(int rows, int cols, int arr[rows][cols]){
