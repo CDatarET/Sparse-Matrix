@@ -84,7 +84,7 @@ void fTranspose(int cp[][3], int t[][3]) {
     t[0][1] = m;
     t[0][2] = e;
 
-    if (e == 0)
+    if (e <= 0)
         return;
 
     int count[max] = {0};
